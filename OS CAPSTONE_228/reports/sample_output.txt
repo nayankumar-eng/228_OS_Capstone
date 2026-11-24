@@ -1,0 +1,77 @@
+========================================
+       SAMPLE OUTPUT TRACE
+========================================
+
+CPU SCHEDULING
+
+Input:
+Burst times = 8 4 9 5 2
+Quantum = 3
+
+FCFS:
+Completion = [8, 12, 21, 26, 28]
+Average Waiting Time = 13.40
+Average Turnaround Time = 19.00
+
+SJF:
+Completion = [19, 6, 28, 11, 2]
+Average Waiting Time = 7.60
+Average Turnaround Time = 13.20
+
+Round Robin:
+Completion = [25, 18, 28, 23, 14]
+Average Waiting Time = 16.00
+Average Turnaround Time = 21.60
+
+
+========================================
+
+MEMORY MANAGEMENT
+
+Blocks:
+100 500 200 300 600
+
+Processes:
+212 417 112 426
+
+First Fit:
+Allocation = [1, 4, 1, -1]
+
+Best Fit:
+Allocation = [3, 1, 2, 4]
+
+Worst Fit:
+Allocation = [4, 1, 4, -1]
+
+
+========================================
+
+DEADLOCK MANAGEMENT
+
+Available:
+3 3 2
+
+System State:
+SAFE
+
+Safe Sequence:
+P1 -> P3 -> P4 -> P0 -> P2
+
+
+========================================
+
+DISK SCHEDULING
+
+Initial Head:
+53
+
+Requests:
+98 183 37 122 14 124 65 67
+
+FCFS:
+Total Head Movement = 640
+
+SSTF:
+Total Head Movement = 236
+
+========================================

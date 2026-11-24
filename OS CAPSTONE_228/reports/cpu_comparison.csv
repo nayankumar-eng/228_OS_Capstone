@@ -1,0 +1,4 @@
+Algorithm,Average Waiting,Average Turnaround
+FCFS,13.40,19.00
+SJF,7.60,13.20
+Round Robin,16.00,21.60

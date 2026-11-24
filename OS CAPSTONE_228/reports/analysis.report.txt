@@ -1,0 +1,110 @@
+OS RESOURCE MANAGER
+ANALYSIS REPORT
+===============================
+
+1. CPU SCHEDULING
+-----------------
+
+Dataset:
+
+8 4 9 5 2
+
+FCFS:
+Average Waiting Time = 13.40
+Average Turnaround Time = 19.00
+
+SJF:
+Average Waiting Time = 7.60
+Average Turnaround Time = 13.20
+
+Round Robin:
+Quantum = 3
+Average Waiting Time = 16.00
+Average Turnaround Time = 21.60
+
+
+Observation:
+
+SJF provides the lowest average waiting
+time for this particular dataset.
+
+Round Robin provides time-sharing between
+processes and is useful for interactive systems.
+
+
+2. MEMORY MANAGEMENT
+--------------------
+
+Memory Blocks:
+
+100 500 200 300 600
+
+Processes:
+
+212 417 112 426
+
+First Fit:
+Allocation = [1, 4, 1, -1]
+
+Best Fit:
+Allocation = [3, 1, 2, 4]
+
+Worst Fit:
+Allocation = [4, 1, 4, -1]
+
+
+Observation:
+
+Different allocation strategies produce
+different memory utilization patterns.
+
+
+3. DISK SCHEDULING
+------------------
+
+Initial Head:
+
+53
+
+Requests:
+
+98 183 37 122 14 124 65 67
+
+FCFS:
+Total Head Movement = 640
+
+SSTF:
+Total Head Movement = 236
+
+
+Observation:
+
+SSTF produces significantly lower head
+movement than FCFS for this dataset.
+
+
+4. DEADLOCK
+-----------
+
+Banker's Algorithm was used to determine
+whether the system is in a safe state.
+
+Result:
+
+SAFE
+
+Safe Sequence:
+
+P1 -> P3 -> P4 -> P0 -> P2
+
+
+5. CONCLUSION
+-------------
+
+The comparison demonstrates that different
+OS resource-management algorithms have
+different performance characteristics.
+
+The integrated application allows the
+algorithms to be executed and compared
+through one common interface.
